@@ -13,7 +13,7 @@ public class principal {
     
     public static void main(String[] args) {
         
-    Carro carro = new Carro ();    
+    Carro carro = new Carro ("Gol","preto","asd-1234","2");    
        
     carro.setCor("Azul");
     carro.setNumPortas(4);
@@ -29,11 +29,12 @@ public class principal {
     pessoa.setCorDaPele("Branco");
     pessoa.setRaça("Brasileiro");
     
-     pessoa.imprimeDadosDaPessoa();
-    //carro.imprimeDadosCarro();
+    // pessoa.imprimeDadosDaPessoa();
+    carro.imprimeDadosCarro();
    
-    double a=3; 
+   // double a=3; 
  System.out.println("Quadrado de "+a+" é: "+Calculo.elevar(a));
+ 
     } 
     
     
