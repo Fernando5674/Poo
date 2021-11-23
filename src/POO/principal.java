@@ -30,7 +30,10 @@ public class principal {
     pessoa.setRaça("Brasileiro");
     
      pessoa.imprimeDadosDaPessoa();
-    carro.imprimeDadosCarro();
+    //carro.imprimeDadosCarro();
+   
+    double a=3; 
+ System.out.println("Quadrado de "+a+" é: "+Calculo.elevar(a));
     } 
     
     
