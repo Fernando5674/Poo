@@ -11,7 +11,7 @@ package POO;
  */
 public class principal {
     
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         
     Carro carro = new Carro ();    
        
@@ -20,17 +20,24 @@ public class principal {
     carro.setPlaca("abc 1234");
     carro.setTipo("Fusca");
     
-    System.out.println("----------CARRO--------");
-    System.out.println("Cor do carro: "+carro.getCor());
-    System.out.println("Número de portas: "+carro.getNumPortas());
-    System.out.println("Placa do carro: "+carro.getPlaca());
-    System.out.println("Modelo do carro: "+carro.getTipo()); */       
+       
+    
+    Pessoa pessoa = new Pessoa();
+    
+    pessoa.setNome("Fernando");
+    pessoa.setAltura("1:69");
+    pessoa.setCorDaPele("Branco");
+    pessoa.setRaça("Brasileiro");
+    
+     pessoa.imprimeDadosDaPessoa();
+    carro.imprimeDadosCarro();
     } 
     
- public static void main (String[] args){
+    
+    
  
-      Pessoa pessoa = new pessoa ();
-
-pessoa.set
-
+ 
+      
+      
+      
 }

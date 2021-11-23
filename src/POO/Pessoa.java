@@ -15,6 +15,17 @@ public class Pessoa {
     String corDaPele;
     String altura;
     String raça;
+    
+    void imprimeDadosDaPessoa(){
+        
+        System.out.println("-----------pessoa-------");
+      System.out.println("Nome: "+nome);
+       System.out.println("Altura: "+altura);
+        System.out.println("corDaPele: "+corDaPele);
+         System.out.println("Raça: "+raça);
+      
+    }
+    
 
     public String getNome() {
         return nome;
